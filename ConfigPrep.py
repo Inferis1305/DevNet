@@ -281,7 +281,7 @@ ConfigFile.write("####### Prime SNMP #######\n\r")
 ConfigFile.write("snmp-server view UC_SNMP dod included\n")
 ConfigFile.write("snmp-server host 10.216.3.17 version 3 auth UC_SNMP\n")
 ConfigFile.write("snmp-server group UC_SNMP v3 auth read UC_SNMP write UC_SNMP\n")
-ConfigFile.write("snmp-server user UC_SNMP UC_SNMP v3 auth sha UC_SNMP2019!\n\r")
+ConfigFile.write("snmp-server user xx UC_SNMP v3 auth sha xx!\n\r")
 ########################################################################################
 ############################## VoIP static #############################################
 ConfigFile.write("####### Static VoIP #######\n\r")
